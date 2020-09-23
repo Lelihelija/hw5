@@ -1,0 +1,70 @@
+.general-wrapper {
+    margin-top: 20px;
+    background-color: cornsilk;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    max-width: 600px;
+    box-shadow: 0 2px 15px 0 #474242;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.contact-wrapper {
+    position: relative;
+    display: flex;
+    margin: 5px;
+    border: 1px dotted salmon;
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.input-wrapper input {
+    width: 100%;
+}
+
+.input-wrapper {
+    padding: 5px;
+}
+
+.input {
+    height: 30px;
+    padding-left: 7px;
+}
+
+.contact-elem{
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.contact-firstName {
+    flex-shrink: 0;
+}
+
+.contact-lastName {
+    flex-grow: 1;
+}
+
+.contact-phone {
+    flex-shrink: 0;
+    width: 130px;
+}
+
+.contact-gender {
+    flex-shrink: 0;
+    width: 60px;
+}
+
+.contacts-empty {
+    padding-right: 5px;
+    padding-left: 5px;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;   
+}

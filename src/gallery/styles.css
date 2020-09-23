@@ -1,0 +1,22 @@
+.gallery-wrapper {
+    background-color: papayawhip;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+}
+
+.picture-wrapper {
+    height: 420px;
+    background: papayawhip;
+    align-items: center;
+    flex-shrink: 0;
+    padding: 20px;
+
+}
+
+.picture {
+    height: 400px;
+}
